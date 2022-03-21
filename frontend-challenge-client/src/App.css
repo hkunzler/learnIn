@@ -1,0 +1,7 @@
+.App > section {
+  background: #f9f9f9;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
