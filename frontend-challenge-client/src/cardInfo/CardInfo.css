@@ -1,0 +1,9 @@
+.cardInfo {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  margin: 2rem;
+}
+.cardInfo:last-child {
+  margin-left: auto;
+}

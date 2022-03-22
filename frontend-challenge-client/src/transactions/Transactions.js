@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card, Input, Skeleton, Table, Typography } from "antd";
+import { Card, Input, Table } from "antd";
 
 import { formatAmount } from "../utils";
 
@@ -66,7 +66,6 @@ export function Transactions() {
     <section className="transactions">
       <Card bodyStyle={{borderRadius:"15px"}} title="Transactions" extra={search} loading={loading}>
         <Table
-          responsive
           pagination={{ defaultPageSize: 4, showSizeChanger: false }}
           dataSource={transactions}
           columns={columns}

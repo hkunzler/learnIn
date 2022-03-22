@@ -5,7 +5,7 @@ import "./Nav.css";
 export function Nav() {
   return (
     <nav>
-      <div>LEARN IN</div>
+      <h1>LEARN IN</h1>
       <MenuOutlined style={{ cursor: 'pointer' }}/>
     </nav>
   );
